@@ -5,7 +5,7 @@ import altair as alt
 st.set_page_config(page_title="BLS Labor Dashboard", layout="wide")
 st.title("BLS Labor Dashboard")
 
-# load data once and reuse it
+# load data once
 @st.cache_data
 def load_data():
     df = pd.read_csv("data/labor_timeseries.csv", parse_dates=["date"])
@@ -14,69 +14,66 @@ def load_data():
 
 full_df = load_data()
 
-# show last date in the data
+# last month in the file
 last_date = full_df["date"].max()
 st.caption(f"Last data month in file: {last_date.date()}")
 
-# choose year range for charts
-years = full_df["date"].dt.year
-min_year = int(years.min())
-max_year = int(years.max())
+# date range slider (month by month)
+
+min_date = full_df["date"].min()
+max_date = full_df["date"].max()
 
 st.subheader("Select time range for charts")
-start_year, end_year = st.slider(
-    "Year range",
-    min_value=min_year,
-    max_value=max_year,
-    value=(max(min_year, max_year - 2), max_year),  # default is last 3 years
+
+# default = full range so user sees everything at first
+start_date, end_date = st.slider(
+    "Date range",
+    min_value=min_date.to_pydatetime(),
+    max_value=max_date.to_pydatetime(),
+    value=(min_date.to_pydatetime(), max_date.to_pydatetime()),
+    format="YYYY-MM",
 )
 
-start_date = pd.Timestamp(start_year, 1, 1)
-end_date = pd.Timestamp(end_year, 12, 31)
+start_date = pd.to_datetime(start_date)
+end_date = pd.to_datetime(end_date)
 
-# filter data for charts
+# filter data for charts based on slider
 df = full_df[(full_df["date"] >= start_date) & (full_df["date"] <= end_date)].copy()
 
-# show latest values as metrics (use full data, not filtered)
-latest_df = full_df[full_df["date"] == last_date]
+# snapshot metrics (latest month)
 
-metric_order = [
-    "Total Nonfarm Employment (thousands)",
-    "Average Hourly Earnings, Private ($)",
-    "Labor Force Participation Rate (%)",
-    "Employment-Population Ratio (%)",
-    "Unemployment Rate (%))",
-]
+st.subheader("Latest snapshot (most recent month)")
 
-latest_df = (
-    latest_df.set_index("series_name")
-    .reindex(metric_order)
-    .reset_index()
-    .dropna(subset=["value"])
-)
+latest_df = full_df[full_df["date"] == last_date].copy()
+
+# sort by name just to keep it stable
+latest_df = latest_df.sort_values("series_name")
 
 cols = st.columns(len(latest_df))
 for col, (_, row) in zip(cols, latest_df.iterrows()):
-    if row["value"] < 1000:
-        value_str = f"{row['value']:.1f}"
+    val = row["value"]
+    # simple formatting so big numbers don't get decimals
+    if val < 1000:
+        val_str = f"{val:.1f}"
     else:
-        value_str = f"{row['value']:.0f}"
-    col.metric(row["series_name"], value_str)
+        val_str = f"{val:.0f}"
+    col.metric(row["series_name"], val_str)
 
 st.write("")
 
-# main line chart
+# main level chart
+
 st.subheader("Level of each series")
 
 if df.empty:
-    st.warning("No data in this year range. Try a different range.")
+    st.warning("No data in this date range. Try expanding the slider above.")
 else:
-    series_list = sorted(df["series_name"].unique().tolist())
-    default_series = series_list[:3]
+    all_series = sorted(df["series_name"].unique().tolist())
+    default_series = all_series[:3]
 
     selected = st.multiselect(
         "Choose series to plot",
-        options=series_list,
+        options=all_series,
         default=default_series,
     )
 
@@ -90,7 +87,7 @@ else:
             .mark_line()
             .encode(
                 x="date:T",
-                y="value:Q",
+                y=alt.Y("value:Q", title="Value"),
                 color="series_name:N",
                 tooltip=["series_name", "date:T", "value:Q"],
             )
@@ -99,6 +96,7 @@ else:
         st.altair_chart(line_chart, use_container_width=True)
 
 # month over month change
+
 st.subheader("Month over month change (percent)")
 
 df_range_sorted = df.sort_values(["series_id", "date"]).reset_index(drop=True)
@@ -106,7 +104,7 @@ df_range_sorted["mom_change"] = (
     df_range_sorted.groupby("series_id")["value"].pct_change() * 100
 )
 
-if df.empty or len(selected) == 0:
+if df.empty or "selected" not in locals() or len(selected) == 0:
     st.info("Select at least one series above to see month over month changes.")
 else:
     mom_df = df_range_sorted[
@@ -118,7 +116,7 @@ else:
         .mark_line()
         .encode(
             x="date:T",
-            y="mom_change:Q",
+            y=alt.Y("mom_change:Q", title="MoM change (%)"),
             color="series_name:N",
             tooltip=[
                 "series_name",
@@ -131,6 +129,7 @@ else:
     st.altair_chart(mom_chart, use_container_width=True)
 
 # year over year change
+
 st.subheader("Year over year change (percent)")
 
 full_sorted = full_df.sort_values(["series_id", "date"]).reset_index(drop=True)
@@ -142,7 +141,7 @@ yoy_range_df = full_sorted[
     (full_sorted["date"] >= start_date) & (full_sorted["date"] <= end_date)
 ]
 
-if df.empty or len(selected) == 0:
+if df.empty or "selected" not in locals() or len(selected) == 0:
     st.info("Select at least one series above to see year over year changes.")
 else:
     yoy_df = yoy_range_df[
@@ -154,7 +153,7 @@ else:
         .mark_line()
         .encode(
             x="date:T",
-            y="yoy_change:Q",
+            y=alt.Y("yoy_change:Q", title="YoY change (%)"),
             color="series_name:N",
             tooltip=[
                 "series_name",
@@ -166,10 +165,11 @@ else:
     )
     st.altair_chart(yoy_chart, use_container_width=True)
 
-# mini trend panels
+# mini trend charts
+
 st.subheader("Mini trends (by series)")
 
-if df.empty or len(selected) == 0:
+if df.empty or "selected" not in locals() or len(selected) == 0:
     st.info("Select at least one series above to see mini trends.")
 else:
     n_cols = min(len(selected), 3)
@@ -193,7 +193,8 @@ else:
         trend_cols[col_idx].altair_chart(mini_chart, use_container_width=True)
 
 # data table
-st.subheader("Data for selected year range")
+
+st.subheader("Data for selected date range")
 
 df_table = df.sort_values(["series_name", "date"]).reset_index(drop=True)
 st.dataframe(df_table, use_container_width=True)
