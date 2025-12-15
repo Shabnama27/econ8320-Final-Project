@@ -1,4 +1,160 @@
 series_id,series_name,date,value
+CES0000000001,Total Nonfarm Employment (thousands),2010-01-01,129802.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-02-01,129705.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-03-01,129865.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-04-01,130120.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-05-01,130643.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-06-01,130509.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-07-01,130415.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-08-01,130416.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-09-01,130342.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-10-01,130621.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-11-01,130749.0
+CES0000000001,Total Nonfarm Employment (thousands),2010-12-01,130830.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-01-01,130837.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-02-01,131056.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-03-01,131282.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-04-01,131597.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-05-01,131704.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-06-01,131931.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-07-01,131993.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-08-01,132125.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-09-01,132344.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-10-01,132553.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-11-01,132690.0
+CES0000000001,Total Nonfarm Employment (thousands),2011-12-01,132888.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-01-01,133245.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-02-01,133508.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-03-01,133748.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-04-01,133825.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-05-01,133933.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-06-01,134012.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-07-01,134157.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-08-01,134338.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-09-01,134517.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-10-01,134668.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-11-01,134825.0
+CES0000000001,Total Nonfarm Employment (thousands),2012-12-01,135074.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-01-01,135257.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-02-01,135545.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-03-01,135689.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-04-01,135873.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-05-01,136095.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-06-01,136279.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-07-01,136391.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-08-01,136646.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-09-01,136821.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-10-01,137041.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-11-01,137316.0
+CES0000000001,Total Nonfarm Employment (thousands),2013-12-01,137373.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-01-01,137561.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-02-01,137712.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-03-01,137985.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-04-01,138297.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-05-01,138512.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-06-01,138849.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-07-01,139073.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-08-01,139269.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-09-01,139563.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-10-01,139797.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-11-01,140090.0
+CES0000000001,Total Nonfarm Employment (thousands),2014-12-01,140364.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-01-01,140568.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-02-01,140827.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-03-01,140923.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-04-01,141196.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-05-01,141538.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-06-01,141709.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-07-01,141991.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-08-01,142125.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-09-01,142275.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-10-01,142579.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-11-01,142808.0
+CES0000000001,Total Nonfarm Employment (thousands),2015-12-01,143077.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-01-01,143210.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-02-01,143407.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-03-01,143662.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-04-01,143855.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-05-01,143900.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-06-01,144146.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-07-01,144520.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-08-01,144662.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-09-01,144967.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-10-01,145066.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-11-01,145183.0
+CES0000000001,Total Nonfarm Employment (thousands),2016-12-01,145408.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-01-01,145628.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-02-01,145848.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-03-01,145969.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-04-01,146174.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-05-01,146380.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-06-01,146583.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-07-01,146772.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-08-01,146919.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-09-01,147007.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-10-01,147150.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-11-01,147373.0
+CES0000000001,Total Nonfarm Employment (thousands),2017-12-01,147523.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-01-01,147660.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-02-01,148054.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-03-01,148280.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-04-01,148422.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-05-01,148740.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-06-01,148959.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-07-01,149020.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-08-01,149279.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-09-01,149358.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-10-01,149526.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-11-01,149617.0
+CES0000000001,Total Nonfarm Employment (thousands),2018-12-01,149809.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-01-01,150059.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-02-01,150065.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-03-01,150295.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-04-01,150593.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-05-01,150621.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-06-01,150839.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-07-01,150936.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-08-01,151171.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-09-01,151365.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-10-01,151460.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-11-01,151668.0
+CES0000000001,Total Nonfarm Employment (thousands),2019-12-01,151795.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-01-01,152031.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-02-01,152292.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-03-01,150895.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-04-01,130424.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-05-01,133040.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-06-01,137671.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-07-01,139255.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-08-01,140819.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-09-01,141770.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-10-01,142461.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-11-01,142731.0
+CES0000000001,Total Nonfarm Employment (thousands),2020-12-01,142548.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-01-01,142913.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-02-01,143422.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-03-01,144246.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-04-01,144611.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-05-01,145032.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-06-01,145828.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-07-01,146759.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-08-01,147246.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-09-01,147712.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-10-01,148569.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-11-01,149206.0
+CES0000000001,Total Nonfarm Employment (thousands),2021-12-01,149781.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-01-01,150006.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-02-01,150875.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-03-01,151346.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-04-01,151651.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-05-01,151892.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-06-01,152353.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-07-01,153049.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-08-01,153286.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-09-01,153513.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-10-01,153913.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-11-01,154210.0
+CES0000000001,Total Nonfarm Employment (thousands),2022-12-01,154336.0
 CES0000000001,Total Nonfarm Employment (thous),2023-01-01,154780.0
 CES0000000001,Total Nonfarm Employment (thous),2023-02-01,155086.0
 CES0000000001,Total Nonfarm Employment (thous),2023-03-01,155171.0
@@ -32,6 +188,162 @@ CES0000000001,Total Nonfarm Employment (thous),2025-06-01,159439.0
 CES0000000001,Total Nonfarm Employment (thous),2025-07-01,159511.0
 CES0000000001,Total Nonfarm Employment (thous),2025-08-01,159507.0
 CES0000000001,Total Nonfarm Employment (thous),2025-09-01,159626.0
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-01-01,22.41
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-02-01,22.46
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-03-01,22.46
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-04-01,22.49
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-05-01,22.51
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-06-01,22.53
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-07-01,22.59
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-08-01,22.62
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-09-01,22.67
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-10-01,22.74
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-11-01,22.73
+CES0500000003,"Avg Hourly Earnings, Private ($)",2010-12-01,22.76
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-01-01,22.87
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-02-01,22.87
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-03-01,22.87
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-04-01,22.91
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-05-01,22.97
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-06-01,23.01
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-07-01,23.11
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-08-01,23.07
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-09-01,23.11
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-10-01,23.18
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-11-01,23.19
+CES0500000003,"Avg Hourly Earnings, Private ($)",2011-12-01,23.22
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-01-01,23.26
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-02-01,23.28
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-03-01,23.36
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-04-01,23.38
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-05-01,23.41
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-06-01,23.46
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-07-01,23.49
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-08-01,23.49
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-09-01,23.57
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-10-01,23.56
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-11-01,23.63
+CES0500000003,"Avg Hourly Earnings, Private ($)",2012-12-01,23.72
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-01-01,23.75
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-02-01,23.77
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-03-01,23.8
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-04-01,23.87
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-05-01,23.89
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-06-01,23.96
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-07-01,23.98
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-08-01,24.02
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-09-01,24.06
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-10-01,24.09
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-11-01,24.16
+CES0500000003,"Avg Hourly Earnings, Private ($)",2013-12-01,24.18
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-01-01,24.23
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-02-01,24.33
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-03-01,24.31
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-04-01,24.34
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-05-01,24.4
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-06-01,24.46
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-07-01,24.48
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-08-01,24.54
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-09-01,24.55
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-10-01,24.58
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-11-01,24.66
+CES0500000003,"Avg Hourly Earnings, Private ($)",2014-12-01,24.63
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-01-01,24.75
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-02-01,24.8
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-03-01,24.85
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-04-01,24.89
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-05-01,24.97
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-06-01,24.97
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-07-01,25.01
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-08-01,25.09
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-09-01,25.11
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-10-01,25.2
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-11-01,25.25
+CES0500000003,"Avg Hourly Earnings, Private ($)",2015-12-01,25.25
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-01-01,25.37
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-02-01,25.38
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-03-01,25.45
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-04-01,25.53
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-05-01,25.58
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-06-01,25.62
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-07-01,25.69
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-08-01,25.71
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-09-01,25.77
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-10-01,25.9
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-11-01,25.9
+CES0500000003,"Avg Hourly Earnings, Private ($)",2016-12-01,25.93
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-01-01,26.0
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-02-01,26.07
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-03-01,26.11
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-04-01,26.17
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-05-01,26.21
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-06-01,26.26
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-07-01,26.35
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-08-01,26.37
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-09-01,26.49
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-10-01,26.5
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-11-01,26.54
+CES0500000003,"Avg Hourly Earnings, Private ($)",2017-12-01,26.63
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-01-01,26.72
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-02-01,26.74
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-03-01,26.85
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-04-01,26.91
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-05-01,26.98
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-06-01,27.03
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-07-01,27.1
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-08-01,27.21
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-09-01,27.32
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-10-01,27.37
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-11-01,27.44
+CES0500000003,"Avg Hourly Earnings, Private ($)",2018-12-01,27.56
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-01-01,27.59
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-02-01,27.69
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-03-01,27.77
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-04-01,27.79
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-05-01,27.88
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-06-01,27.96
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-07-01,28.03
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-08-01,28.14
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-09-01,28.16
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-10-01,28.23
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-11-01,28.34
+CES0500000003,"Avg Hourly Earnings, Private ($)",2019-12-01,28.38
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-01-01,28.43
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-02-01,28.54
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-03-01,28.74
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-04-01,30.04
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-05-01,29.72
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-06-01,29.38
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-07-01,29.39
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-08-01,29.5
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-09-01,29.51
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-10-01,29.55
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-11-01,29.64
+CES0500000003,"Avg Hourly Earnings, Private ($)",2020-12-01,29.91
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-01-01,29.92
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-02-01,30.07
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-03-01,30.04
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-04-01,30.23
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-05-01,30.41
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-06-01,30.55
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-07-01,30.66
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-08-01,30.79
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-09-01,30.96
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-10-01,31.15
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-11-01,31.25
+CES0500000003,"Avg Hourly Earnings, Private ($)",2021-12-01,31.41
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-01-01,31.62
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-02-01,31.66
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-03-01,31.82
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-04-01,31.96
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-05-01,32.1
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-06-01,32.2
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-07-01,32.35
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-08-01,32.44
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-09-01,32.55
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-10-01,32.7
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-11-01,32.84
+CES0500000003,"Avg Hourly Earnings, Private ($)",2022-12-01,32.96
 CES0500000003,"Avg Hourly Earnings, Private ($)",2023-01-01,33.05
 CES0500000003,"Avg Hourly Earnings, Private ($)",2023-02-01,33.16
 CES0500000003,"Avg Hourly Earnings, Private ($)",2023-03-01,33.28
@@ -65,6 +377,162 @@ CES0500000003,"Avg Hourly Earnings, Private ($)",2025-06-01,36.31
 CES0500000003,"Avg Hourly Earnings, Private ($)",2025-07-01,36.43
 CES0500000003,"Avg Hourly Earnings, Private ($)",2025-08-01,36.58
 CES0500000003,"Avg Hourly Earnings, Private ($)",2025-09-01,36.67
+LNS11300000,Labor Force Participation Rate (%),2010-01-01,64.8
+LNS11300000,Labor Force Participation Rate (%),2010-02-01,64.9
+LNS11300000,Labor Force Participation Rate (%),2010-03-01,64.9
+LNS11300000,Labor Force Participation Rate (%),2010-04-01,65.2
+LNS11300000,Labor Force Participation Rate (%),2010-05-01,64.9
+LNS11300000,Labor Force Participation Rate (%),2010-06-01,64.6
+LNS11300000,Labor Force Participation Rate (%),2010-07-01,64.6
+LNS11300000,Labor Force Participation Rate (%),2010-08-01,64.7
+LNS11300000,Labor Force Participation Rate (%),2010-09-01,64.6
+LNS11300000,Labor Force Participation Rate (%),2010-10-01,64.4
+LNS11300000,Labor Force Participation Rate (%),2010-11-01,64.6
+LNS11300000,Labor Force Participation Rate (%),2010-12-01,64.3
+LNS11300000,Labor Force Participation Rate (%),2011-01-01,64.2
+LNS11300000,Labor Force Participation Rate (%),2011-02-01,64.1
+LNS11300000,Labor Force Participation Rate (%),2011-03-01,64.2
+LNS11300000,Labor Force Participation Rate (%),2011-04-01,64.2
+LNS11300000,Labor Force Participation Rate (%),2011-05-01,64.1
+LNS11300000,Labor Force Participation Rate (%),2011-06-01,64.0
+LNS11300000,Labor Force Participation Rate (%),2011-07-01,64.0
+LNS11300000,Labor Force Participation Rate (%),2011-08-01,64.1
+LNS11300000,Labor Force Participation Rate (%),2011-09-01,64.2
+LNS11300000,Labor Force Participation Rate (%),2011-10-01,64.1
+LNS11300000,Labor Force Participation Rate (%),2011-11-01,64.1
+LNS11300000,Labor Force Participation Rate (%),2011-12-01,64.0
+LNS11300000,Labor Force Participation Rate (%),2012-01-01,63.7
+LNS11300000,Labor Force Participation Rate (%),2012-02-01,63.8
+LNS11300000,Labor Force Participation Rate (%),2012-03-01,63.8
+LNS11300000,Labor Force Participation Rate (%),2012-04-01,63.7
+LNS11300000,Labor Force Participation Rate (%),2012-05-01,63.7
+LNS11300000,Labor Force Participation Rate (%),2012-06-01,63.8
+LNS11300000,Labor Force Participation Rate (%),2012-07-01,63.7
+LNS11300000,Labor Force Participation Rate (%),2012-08-01,63.5
+LNS11300000,Labor Force Participation Rate (%),2012-09-01,63.6
+LNS11300000,Labor Force Participation Rate (%),2012-10-01,63.8
+LNS11300000,Labor Force Participation Rate (%),2012-11-01,63.6
+LNS11300000,Labor Force Participation Rate (%),2012-12-01,63.7
+LNS11300000,Labor Force Participation Rate (%),2013-01-01,63.7
+LNS11300000,Labor Force Participation Rate (%),2013-02-01,63.4
+LNS11300000,Labor Force Participation Rate (%),2013-03-01,63.3
+LNS11300000,Labor Force Participation Rate (%),2013-04-01,63.4
+LNS11300000,Labor Force Participation Rate (%),2013-05-01,63.4
+LNS11300000,Labor Force Participation Rate (%),2013-06-01,63.4
+LNS11300000,Labor Force Participation Rate (%),2013-07-01,63.3
+LNS11300000,Labor Force Participation Rate (%),2013-08-01,63.3
+LNS11300000,Labor Force Participation Rate (%),2013-09-01,63.2
+LNS11300000,Labor Force Participation Rate (%),2013-10-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2013-11-01,63.0
+LNS11300000,Labor Force Participation Rate (%),2013-12-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2014-01-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2014-02-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2014-03-01,63.1
+LNS11300000,Labor Force Participation Rate (%),2014-04-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2014-05-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2014-06-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2014-07-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2014-08-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2014-09-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2014-10-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2014-11-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2014-12-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2015-01-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2015-02-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2015-03-01,62.6
+LNS11300000,Labor Force Participation Rate (%),2015-04-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2015-05-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2015-06-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2015-07-01,62.6
+LNS11300000,Labor Force Participation Rate (%),2015-08-01,62.6
+LNS11300000,Labor Force Participation Rate (%),2015-09-01,62.4
+LNS11300000,Labor Force Participation Rate (%),2015-10-01,62.5
+LNS11300000,Labor Force Participation Rate (%),2015-11-01,62.5
+LNS11300000,Labor Force Participation Rate (%),2015-12-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2016-01-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2016-02-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2016-03-01,63.0
+LNS11300000,Labor Force Participation Rate (%),2016-04-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2016-05-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2016-06-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2016-07-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2016-08-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2016-09-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2016-10-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2016-11-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2016-12-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2017-01-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2017-02-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2017-03-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2017-04-01,63.0
+LNS11300000,Labor Force Participation Rate (%),2017-05-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2017-06-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2017-07-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2017-08-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2017-09-01,63.1
+LNS11300000,Labor Force Participation Rate (%),2017-10-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2017-11-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2017-12-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2018-01-01,62.7
+LNS11300000,Labor Force Participation Rate (%),2018-02-01,63.0
+LNS11300000,Labor Force Participation Rate (%),2018-03-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2018-04-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2018-05-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2018-06-01,63.0
+LNS11300000,Labor Force Participation Rate (%),2018-07-01,63.0
+LNS11300000,Labor Force Participation Rate (%),2018-08-01,62.6
+LNS11300000,Labor Force Participation Rate (%),2018-09-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2018-10-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2018-11-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2018-12-01,63.0
+LNS11300000,Labor Force Participation Rate (%),2019-01-01,63.1
+LNS11300000,Labor Force Participation Rate (%),2019-02-01,63.1
+LNS11300000,Labor Force Participation Rate (%),2019-03-01,63.0
+LNS11300000,Labor Force Participation Rate (%),2019-04-01,62.8
+LNS11300000,Labor Force Participation Rate (%),2019-05-01,62.9
+LNS11300000,Labor Force Participation Rate (%),2019-06-01,63.0
+LNS11300000,Labor Force Participation Rate (%),2019-07-01,63.1
+LNS11300000,Labor Force Participation Rate (%),2019-08-01,63.1
+LNS11300000,Labor Force Participation Rate (%),2019-09-01,63.2
+LNS11300000,Labor Force Participation Rate (%),2019-10-01,63.3
+LNS11300000,Labor Force Participation Rate (%),2019-11-01,63.3
+LNS11300000,Labor Force Participation Rate (%),2019-12-01,63.3
+LNS11300000,Labor Force Participation Rate (%),2020-01-01,63.3
+LNS11300000,Labor Force Participation Rate (%),2020-02-01,63.3
+LNS11300000,Labor Force Participation Rate (%),2020-03-01,62.6
+LNS11300000,Labor Force Participation Rate (%),2020-04-01,60.1
+LNS11300000,Labor Force Participation Rate (%),2020-05-01,60.8
+LNS11300000,Labor Force Participation Rate (%),2020-06-01,61.5
+LNS11300000,Labor Force Participation Rate (%),2020-07-01,61.5
+LNS11300000,Labor Force Participation Rate (%),2020-08-01,61.7
+LNS11300000,Labor Force Participation Rate (%),2020-09-01,61.4
+LNS11300000,Labor Force Participation Rate (%),2020-10-01,61.7
+LNS11300000,Labor Force Participation Rate (%),2020-11-01,61.5
+LNS11300000,Labor Force Participation Rate (%),2020-12-01,61.5
+LNS11300000,Labor Force Participation Rate (%),2021-01-01,61.4
+LNS11300000,Labor Force Participation Rate (%),2021-02-01,61.4
+LNS11300000,Labor Force Participation Rate (%),2021-03-01,61.5
+LNS11300000,Labor Force Participation Rate (%),2021-04-01,61.6
+LNS11300000,Labor Force Participation Rate (%),2021-05-01,61.6
+LNS11300000,Labor Force Participation Rate (%),2021-06-01,61.7
+LNS11300000,Labor Force Participation Rate (%),2021-07-01,61.8
+LNS11300000,Labor Force Participation Rate (%),2021-08-01,61.7
+LNS11300000,Labor Force Participation Rate (%),2021-09-01,61.7
+LNS11300000,Labor Force Participation Rate (%),2021-10-01,61.8
+LNS11300000,Labor Force Participation Rate (%),2021-11-01,61.9
+LNS11300000,Labor Force Participation Rate (%),2021-12-01,62.0
+LNS11300000,Labor Force Participation Rate (%),2022-01-01,62.2
+LNS11300000,Labor Force Participation Rate (%),2022-02-01,62.2
+LNS11300000,Labor Force Participation Rate (%),2022-03-01,62.3
+LNS11300000,Labor Force Participation Rate (%),2022-04-01,62.2
+LNS11300000,Labor Force Participation Rate (%),2022-05-01,62.3
+LNS11300000,Labor Force Participation Rate (%),2022-06-01,62.2
+LNS11300000,Labor Force Participation Rate (%),2022-07-01,62.1
+LNS11300000,Labor Force Participation Rate (%),2022-08-01,62.3
+LNS11300000,Labor Force Participation Rate (%),2022-09-01,62.3
+LNS11300000,Labor Force Participation Rate (%),2022-10-01,62.2
+LNS11300000,Labor Force Participation Rate (%),2022-11-01,62.1
+LNS11300000,Labor Force Participation Rate (%),2022-12-01,62.3
 LNS11300000,Labor Force Participation Rate (%),2023-01-01,62.4
 LNS11300000,Labor Force Participation Rate (%),2023-02-01,62.5
 LNS11300000,Labor Force Participation Rate (%),2023-03-01,62.6
@@ -98,6 +566,162 @@ LNS11300000,Labor Force Participation Rate (%),2025-06-01,62.3
 LNS11300000,Labor Force Participation Rate (%),2025-07-01,62.2
 LNS11300000,Labor Force Participation Rate (%),2025-08-01,62.3
 LNS11300000,Labor Force Participation Rate (%),2025-09-01,62.4
+LNS12300000,Employment-Population Ratio (%),2010-01-01,58.5
+LNS12300000,Employment-Population Ratio (%),2010-02-01,58.5
+LNS12300000,Employment-Population Ratio (%),2010-03-01,58.5
+LNS12300000,Employment-Population Ratio (%),2010-04-01,58.7
+LNS12300000,Employment-Population Ratio (%),2010-05-01,58.6
+LNS12300000,Employment-Population Ratio (%),2010-06-01,58.5
+LNS12300000,Employment-Population Ratio (%),2010-07-01,58.5
+LNS12300000,Employment-Population Ratio (%),2010-08-01,58.6
+LNS12300000,Employment-Population Ratio (%),2010-09-01,58.5
+LNS12300000,Employment-Population Ratio (%),2010-10-01,58.3
+LNS12300000,Employment-Population Ratio (%),2010-11-01,58.2
+LNS12300000,Employment-Population Ratio (%),2010-12-01,58.3
+LNS12300000,Employment-Population Ratio (%),2011-01-01,58.3
+LNS12300000,Employment-Population Ratio (%),2011-02-01,58.4
+LNS12300000,Employment-Population Ratio (%),2011-03-01,58.4
+LNS12300000,Employment-Population Ratio (%),2011-04-01,58.4
+LNS12300000,Employment-Population Ratio (%),2011-05-01,58.3
+LNS12300000,Employment-Population Ratio (%),2011-06-01,58.2
+LNS12300000,Employment-Population Ratio (%),2011-07-01,58.2
+LNS12300000,Employment-Population Ratio (%),2011-08-01,58.3
+LNS12300000,Employment-Population Ratio (%),2011-09-01,58.4
+LNS12300000,Employment-Population Ratio (%),2011-10-01,58.4
+LNS12300000,Employment-Population Ratio (%),2011-11-01,58.6
+LNS12300000,Employment-Population Ratio (%),2011-12-01,58.6
+LNS12300000,Employment-Population Ratio (%),2012-01-01,58.4
+LNS12300000,Employment-Population Ratio (%),2012-02-01,58.5
+LNS12300000,Employment-Population Ratio (%),2012-03-01,58.5
+LNS12300000,Employment-Population Ratio (%),2012-04-01,58.4
+LNS12300000,Employment-Population Ratio (%),2012-05-01,58.5
+LNS12300000,Employment-Population Ratio (%),2012-06-01,58.6
+LNS12300000,Employment-Population Ratio (%),2012-07-01,58.5
+LNS12300000,Employment-Population Ratio (%),2012-08-01,58.4
+LNS12300000,Employment-Population Ratio (%),2012-09-01,58.7
+LNS12300000,Employment-Population Ratio (%),2012-10-01,58.8
+LNS12300000,Employment-Population Ratio (%),2012-11-01,58.7
+LNS12300000,Employment-Population Ratio (%),2012-12-01,58.7
+LNS12300000,Employment-Population Ratio (%),2013-01-01,58.6
+LNS12300000,Employment-Population Ratio (%),2013-02-01,58.6
+LNS12300000,Employment-Population Ratio (%),2013-03-01,58.5
+LNS12300000,Employment-Population Ratio (%),2013-04-01,58.6
+LNS12300000,Employment-Population Ratio (%),2013-05-01,58.6
+LNS12300000,Employment-Population Ratio (%),2013-06-01,58.6
+LNS12300000,Employment-Population Ratio (%),2013-07-01,58.7
+LNS12300000,Employment-Population Ratio (%),2013-08-01,58.7
+LNS12300000,Employment-Population Ratio (%),2013-09-01,58.7
+LNS12300000,Employment-Population Ratio (%),2013-10-01,58.3
+LNS12300000,Employment-Population Ratio (%),2013-11-01,58.6
+LNS12300000,Employment-Population Ratio (%),2013-12-01,58.7
+LNS12300000,Employment-Population Ratio (%),2014-01-01,58.8
+LNS12300000,Employment-Population Ratio (%),2014-02-01,58.7
+LNS12300000,Employment-Population Ratio (%),2014-03-01,58.9
+LNS12300000,Employment-Population Ratio (%),2014-04-01,58.9
+LNS12300000,Employment-Population Ratio (%),2014-05-01,58.9
+LNS12300000,Employment-Population Ratio (%),2014-06-01,59.0
+LNS12300000,Employment-Population Ratio (%),2014-07-01,59.0
+LNS12300000,Employment-Population Ratio (%),2014-08-01,59.0
+LNS12300000,Employment-Population Ratio (%),2014-09-01,59.1
+LNS12300000,Employment-Population Ratio (%),2014-10-01,59.3
+LNS12300000,Employment-Population Ratio (%),2014-11-01,59.2
+LNS12300000,Employment-Population Ratio (%),2014-12-01,59.3
+LNS12300000,Employment-Population Ratio (%),2015-01-01,59.3
+LNS12300000,Employment-Population Ratio (%),2015-02-01,59.2
+LNS12300000,Employment-Population Ratio (%),2015-03-01,59.2
+LNS12300000,Employment-Population Ratio (%),2015-04-01,59.3
+LNS12300000,Employment-Population Ratio (%),2015-05-01,59.4
+LNS12300000,Employment-Population Ratio (%),2015-06-01,59.4
+LNS12300000,Employment-Population Ratio (%),2015-07-01,59.3
+LNS12300000,Employment-Population Ratio (%),2015-08-01,59.4
+LNS12300000,Employment-Population Ratio (%),2015-09-01,59.2
+LNS12300000,Employment-Population Ratio (%),2015-10-01,59.3
+LNS12300000,Employment-Population Ratio (%),2015-11-01,59.4
+LNS12300000,Employment-Population Ratio (%),2015-12-01,59.6
+LNS12300000,Employment-Population Ratio (%),2016-01-01,59.7
+LNS12300000,Employment-Population Ratio (%),2016-02-01,59.8
+LNS12300000,Employment-Population Ratio (%),2016-03-01,59.8
+LNS12300000,Employment-Population Ratio (%),2016-04-01,59.7
+LNS12300000,Employment-Population Ratio (%),2016-05-01,59.7
+LNS12300000,Employment-Population Ratio (%),2016-06-01,59.7
+LNS12300000,Employment-Population Ratio (%),2016-07-01,59.8
+LNS12300000,Employment-Population Ratio (%),2016-08-01,59.8
+LNS12300000,Employment-Population Ratio (%),2016-09-01,59.7
+LNS12300000,Employment-Population Ratio (%),2016-10-01,59.7
+LNS12300000,Employment-Population Ratio (%),2016-11-01,59.7
+LNS12300000,Employment-Population Ratio (%),2016-12-01,59.7
+LNS12300000,Employment-Population Ratio (%),2017-01-01,59.9
+LNS12300000,Employment-Population Ratio (%),2017-02-01,60.0
+LNS12300000,Employment-Population Ratio (%),2017-03-01,60.2
+LNS12300000,Employment-Population Ratio (%),2017-04-01,60.2
+LNS12300000,Employment-Population Ratio (%),2017-05-01,60.1
+LNS12300000,Employment-Population Ratio (%),2017-06-01,60.1
+LNS12300000,Employment-Population Ratio (%),2017-07-01,60.2
+LNS12300000,Employment-Population Ratio (%),2017-08-01,60.1
+LNS12300000,Employment-Population Ratio (%),2017-09-01,60.4
+LNS12300000,Employment-Population Ratio (%),2017-10-01,60.1
+LNS12300000,Employment-Population Ratio (%),2017-11-01,60.1
+LNS12300000,Employment-Population Ratio (%),2017-12-01,60.1
+LNS12300000,Employment-Population Ratio (%),2018-01-01,60.1
+LNS12300000,Employment-Population Ratio (%),2018-02-01,60.4
+LNS12300000,Employment-Population Ratio (%),2018-03-01,60.4
+LNS12300000,Employment-Population Ratio (%),2018-04-01,60.4
+LNS12300000,Employment-Population Ratio (%),2018-05-01,60.5
+LNS12300000,Employment-Population Ratio (%),2018-06-01,60.5
+LNS12300000,Employment-Population Ratio (%),2018-07-01,60.6
+LNS12300000,Employment-Population Ratio (%),2018-08-01,60.3
+LNS12300000,Employment-Population Ratio (%),2018-09-01,60.4
+LNS12300000,Employment-Population Ratio (%),2018-10-01,60.5
+LNS12300000,Employment-Population Ratio (%),2018-11-01,60.6
+LNS12300000,Employment-Population Ratio (%),2018-12-01,60.6
+LNS12300000,Employment-Population Ratio (%),2019-01-01,60.6
+LNS12300000,Employment-Population Ratio (%),2019-02-01,60.7
+LNS12300000,Employment-Population Ratio (%),2019-03-01,60.6
+LNS12300000,Employment-Population Ratio (%),2019-04-01,60.5
+LNS12300000,Employment-Population Ratio (%),2019-05-01,60.6
+LNS12300000,Employment-Population Ratio (%),2019-06-01,60.7
+LNS12300000,Employment-Population Ratio (%),2019-07-01,60.8
+LNS12300000,Employment-Population Ratio (%),2019-08-01,60.8
+LNS12300000,Employment-Population Ratio (%),2019-09-01,61.0
+LNS12300000,Employment-Population Ratio (%),2019-10-01,61.0
+LNS12300000,Employment-Population Ratio (%),2019-11-01,61.0
+LNS12300000,Employment-Population Ratio (%),2019-12-01,61.1
+LNS12300000,Employment-Population Ratio (%),2020-01-01,61.1
+LNS12300000,Employment-Population Ratio (%),2020-02-01,61.1
+LNS12300000,Employment-Population Ratio (%),2020-03-01,59.8
+LNS12300000,Employment-Population Ratio (%),2020-04-01,51.2
+LNS12300000,Employment-Population Ratio (%),2020-05-01,52.7
+LNS12300000,Employment-Population Ratio (%),2020-06-01,54.7
+LNS12300000,Employment-Population Ratio (%),2020-07-01,55.2
+LNS12300000,Employment-Population Ratio (%),2020-08-01,56.5
+LNS12300000,Employment-Population Ratio (%),2020-09-01,56.6
+LNS12300000,Employment-Population Ratio (%),2020-10-01,57.5
+LNS12300000,Employment-Population Ratio (%),2020-11-01,57.4
+LNS12300000,Employment-Population Ratio (%),2020-12-01,57.4
+LNS12300000,Employment-Population Ratio (%),2021-01-01,57.4
+LNS12300000,Employment-Population Ratio (%),2021-02-01,57.6
+LNS12300000,Employment-Population Ratio (%),2021-03-01,57.7
+LNS12300000,Employment-Population Ratio (%),2021-04-01,57.9
+LNS12300000,Employment-Population Ratio (%),2021-05-01,58.0
+LNS12300000,Employment-Population Ratio (%),2021-06-01,58.1
+LNS12300000,Employment-Population Ratio (%),2021-07-01,58.4
+LNS12300000,Employment-Population Ratio (%),2021-08-01,58.6
+LNS12300000,Employment-Population Ratio (%),2021-09-01,58.8
+LNS12300000,Employment-Population Ratio (%),2021-10-01,59.0
+LNS12300000,Employment-Population Ratio (%),2021-11-01,59.4
+LNS12300000,Employment-Population Ratio (%),2021-12-01,59.5
+LNS12300000,Employment-Population Ratio (%),2022-01-01,59.7
+LNS12300000,Employment-Population Ratio (%),2022-02-01,59.8
+LNS12300000,Employment-Population Ratio (%),2022-03-01,60.1
+LNS12300000,Employment-Population Ratio (%),2022-04-01,59.9
+LNS12300000,Employment-Population Ratio (%),2022-05-01,60.1
+LNS12300000,Employment-Population Ratio (%),2022-06-01,59.9
+LNS12300000,Employment-Population Ratio (%),2022-07-01,59.9
+LNS12300000,Employment-Population Ratio (%),2022-08-01,60.1
+LNS12300000,Employment-Population Ratio (%),2022-09-01,60.1
+LNS12300000,Employment-Population Ratio (%),2022-10-01,60.0
+LNS12300000,Employment-Population Ratio (%),2022-11-01,59.9
+LNS12300000,Employment-Population Ratio (%),2022-12-01,60.1
 LNS12300000,Employment-Population Ratio (%),2023-01-01,60.2
 LNS12300000,Employment-Population Ratio (%),2023-02-01,60.3
 LNS12300000,Employment-Population Ratio (%),2023-03-01,60.4
@@ -131,6 +755,162 @@ LNS12300000,Employment-Population Ratio (%),2025-06-01,59.7
 LNS12300000,Employment-Population Ratio (%),2025-07-01,59.6
 LNS12300000,Employment-Population Ratio (%),2025-08-01,59.6
 LNS12300000,Employment-Population Ratio (%),2025-09-01,59.7
+LNS14000000,Unemployment Rate (%),2010-01-01,9.8
+LNS14000000,Unemployment Rate (%),2010-02-01,9.8
+LNS14000000,Unemployment Rate (%),2010-03-01,9.9
+LNS14000000,Unemployment Rate (%),2010-04-01,9.9
+LNS14000000,Unemployment Rate (%),2010-05-01,9.6
+LNS14000000,Unemployment Rate (%),2010-06-01,9.4
+LNS14000000,Unemployment Rate (%),2010-07-01,9.4
+LNS14000000,Unemployment Rate (%),2010-08-01,9.5
+LNS14000000,Unemployment Rate (%),2010-09-01,9.5
+LNS14000000,Unemployment Rate (%),2010-10-01,9.4
+LNS14000000,Unemployment Rate (%),2010-11-01,9.8
+LNS14000000,Unemployment Rate (%),2010-12-01,9.3
+LNS14000000,Unemployment Rate (%),2011-01-01,9.1
+LNS14000000,Unemployment Rate (%),2011-02-01,9.0
+LNS14000000,Unemployment Rate (%),2011-03-01,9.0
+LNS14000000,Unemployment Rate (%),2011-04-01,9.1
+LNS14000000,Unemployment Rate (%),2011-05-01,9.0
+LNS14000000,Unemployment Rate (%),2011-06-01,9.1
+LNS14000000,Unemployment Rate (%),2011-07-01,9.0
+LNS14000000,Unemployment Rate (%),2011-08-01,9.0
+LNS14000000,Unemployment Rate (%),2011-09-01,9.0
+LNS14000000,Unemployment Rate (%),2011-10-01,8.8
+LNS14000000,Unemployment Rate (%),2011-11-01,8.6
+LNS14000000,Unemployment Rate (%),2011-12-01,8.5
+LNS14000000,Unemployment Rate (%),2012-01-01,8.3
+LNS14000000,Unemployment Rate (%),2012-02-01,8.3
+LNS14000000,Unemployment Rate (%),2012-03-01,8.2
+LNS14000000,Unemployment Rate (%),2012-04-01,8.2
+LNS14000000,Unemployment Rate (%),2012-05-01,8.2
+LNS14000000,Unemployment Rate (%),2012-06-01,8.2
+LNS14000000,Unemployment Rate (%),2012-07-01,8.2
+LNS14000000,Unemployment Rate (%),2012-08-01,8.1
+LNS14000000,Unemployment Rate (%),2012-09-01,7.8
+LNS14000000,Unemployment Rate (%),2012-10-01,7.8
+LNS14000000,Unemployment Rate (%),2012-11-01,7.7
+LNS14000000,Unemployment Rate (%),2012-12-01,7.9
+LNS14000000,Unemployment Rate (%),2013-01-01,8.0
+LNS14000000,Unemployment Rate (%),2013-02-01,7.7
+LNS14000000,Unemployment Rate (%),2013-03-01,7.5
+LNS14000000,Unemployment Rate (%),2013-04-01,7.6
+LNS14000000,Unemployment Rate (%),2013-05-01,7.5
+LNS14000000,Unemployment Rate (%),2013-06-01,7.5
+LNS14000000,Unemployment Rate (%),2013-07-01,7.3
+LNS14000000,Unemployment Rate (%),2013-08-01,7.2
+LNS14000000,Unemployment Rate (%),2013-09-01,7.2
+LNS14000000,Unemployment Rate (%),2013-10-01,7.2
+LNS14000000,Unemployment Rate (%),2013-11-01,6.9
+LNS14000000,Unemployment Rate (%),2013-12-01,6.7
+LNS14000000,Unemployment Rate (%),2014-01-01,6.6
+LNS14000000,Unemployment Rate (%),2014-02-01,6.7
+LNS14000000,Unemployment Rate (%),2014-03-01,6.7
+LNS14000000,Unemployment Rate (%),2014-04-01,6.2
+LNS14000000,Unemployment Rate (%),2014-05-01,6.3
+LNS14000000,Unemployment Rate (%),2014-06-01,6.1
+LNS14000000,Unemployment Rate (%),2014-07-01,6.2
+LNS14000000,Unemployment Rate (%),2014-08-01,6.1
+LNS14000000,Unemployment Rate (%),2014-09-01,5.9
+LNS14000000,Unemployment Rate (%),2014-10-01,5.7
+LNS14000000,Unemployment Rate (%),2014-11-01,5.8
+LNS14000000,Unemployment Rate (%),2014-12-01,5.6
+LNS14000000,Unemployment Rate (%),2015-01-01,5.7
+LNS14000000,Unemployment Rate (%),2015-02-01,5.5
+LNS14000000,Unemployment Rate (%),2015-03-01,5.4
+LNS14000000,Unemployment Rate (%),2015-04-01,5.4
+LNS14000000,Unemployment Rate (%),2015-05-01,5.6
+LNS14000000,Unemployment Rate (%),2015-06-01,5.3
+LNS14000000,Unemployment Rate (%),2015-07-01,5.2
+LNS14000000,Unemployment Rate (%),2015-08-01,5.1
+LNS14000000,Unemployment Rate (%),2015-09-01,5.0
+LNS14000000,Unemployment Rate (%),2015-10-01,5.0
+LNS14000000,Unemployment Rate (%),2015-11-01,5.1
+LNS14000000,Unemployment Rate (%),2015-12-01,5.0
+LNS14000000,Unemployment Rate (%),2016-01-01,4.8
+LNS14000000,Unemployment Rate (%),2016-02-01,4.9
+LNS14000000,Unemployment Rate (%),2016-03-01,5.0
+LNS14000000,Unemployment Rate (%),2016-04-01,5.1
+LNS14000000,Unemployment Rate (%),2016-05-01,4.8
+LNS14000000,Unemployment Rate (%),2016-06-01,4.9
+LNS14000000,Unemployment Rate (%),2016-07-01,4.8
+LNS14000000,Unemployment Rate (%),2016-08-01,4.9
+LNS14000000,Unemployment Rate (%),2016-09-01,5.0
+LNS14000000,Unemployment Rate (%),2016-10-01,4.9
+LNS14000000,Unemployment Rate (%),2016-11-01,4.7
+LNS14000000,Unemployment Rate (%),2016-12-01,4.7
+LNS14000000,Unemployment Rate (%),2017-01-01,4.7
+LNS14000000,Unemployment Rate (%),2017-02-01,4.6
+LNS14000000,Unemployment Rate (%),2017-03-01,4.4
+LNS14000000,Unemployment Rate (%),2017-04-01,4.4
+LNS14000000,Unemployment Rate (%),2017-05-01,4.4
+LNS14000000,Unemployment Rate (%),2017-06-01,4.3
+LNS14000000,Unemployment Rate (%),2017-07-01,4.3
+LNS14000000,Unemployment Rate (%),2017-08-01,4.4
+LNS14000000,Unemployment Rate (%),2017-09-01,4.3
+LNS14000000,Unemployment Rate (%),2017-10-01,4.2
+LNS14000000,Unemployment Rate (%),2017-11-01,4.2
+LNS14000000,Unemployment Rate (%),2017-12-01,4.1
+LNS14000000,Unemployment Rate (%),2018-01-01,4.0
+LNS14000000,Unemployment Rate (%),2018-02-01,4.1
+LNS14000000,Unemployment Rate (%),2018-03-01,4.0
+LNS14000000,Unemployment Rate (%),2018-04-01,4.0
+LNS14000000,Unemployment Rate (%),2018-05-01,3.8
+LNS14000000,Unemployment Rate (%),2018-06-01,4.0
+LNS14000000,Unemployment Rate (%),2018-07-01,3.8
+LNS14000000,Unemployment Rate (%),2018-08-01,3.8
+LNS14000000,Unemployment Rate (%),2018-09-01,3.7
+LNS14000000,Unemployment Rate (%),2018-10-01,3.8
+LNS14000000,Unemployment Rate (%),2018-11-01,3.8
+LNS14000000,Unemployment Rate (%),2018-12-01,3.9
+LNS14000000,Unemployment Rate (%),2019-01-01,4.0
+LNS14000000,Unemployment Rate (%),2019-02-01,3.8
+LNS14000000,Unemployment Rate (%),2019-03-01,3.8
+LNS14000000,Unemployment Rate (%),2019-04-01,3.7
+LNS14000000,Unemployment Rate (%),2019-05-01,3.6
+LNS14000000,Unemployment Rate (%),2019-06-01,3.6
+LNS14000000,Unemployment Rate (%),2019-07-01,3.7
+LNS14000000,Unemployment Rate (%),2019-08-01,3.6
+LNS14000000,Unemployment Rate (%),2019-09-01,3.5
+LNS14000000,Unemployment Rate (%),2019-10-01,3.6
+LNS14000000,Unemployment Rate (%),2019-11-01,3.6
+LNS14000000,Unemployment Rate (%),2019-12-01,3.6
+LNS14000000,Unemployment Rate (%),2020-01-01,3.6
+LNS14000000,Unemployment Rate (%),2020-02-01,3.5
+LNS14000000,Unemployment Rate (%),2020-03-01,4.4
+LNS14000000,Unemployment Rate (%),2020-04-01,14.8
+LNS14000000,Unemployment Rate (%),2020-05-01,13.2
+LNS14000000,Unemployment Rate (%),2020-06-01,11.0
+LNS14000000,Unemployment Rate (%),2020-07-01,10.2
+LNS14000000,Unemployment Rate (%),2020-08-01,8.4
+LNS14000000,Unemployment Rate (%),2020-09-01,7.8
+LNS14000000,Unemployment Rate (%),2020-10-01,6.9
+LNS14000000,Unemployment Rate (%),2020-11-01,6.7
+LNS14000000,Unemployment Rate (%),2020-12-01,6.7
+LNS14000000,Unemployment Rate (%),2021-01-01,6.4
+LNS14000000,Unemployment Rate (%),2021-02-01,6.2
+LNS14000000,Unemployment Rate (%),2021-03-01,6.1
+LNS14000000,Unemployment Rate (%),2021-04-01,6.1
+LNS14000000,Unemployment Rate (%),2021-05-01,5.8
+LNS14000000,Unemployment Rate (%),2021-06-01,5.9
+LNS14000000,Unemployment Rate (%),2021-07-01,5.4
+LNS14000000,Unemployment Rate (%),2021-08-01,5.1
+LNS14000000,Unemployment Rate (%),2021-09-01,4.7
+LNS14000000,Unemployment Rate (%),2021-10-01,4.5
+LNS14000000,Unemployment Rate (%),2021-11-01,4.2
+LNS14000000,Unemployment Rate (%),2021-12-01,3.9
+LNS14000000,Unemployment Rate (%),2022-01-01,4.0
+LNS14000000,Unemployment Rate (%),2022-02-01,3.8
+LNS14000000,Unemployment Rate (%),2022-03-01,3.7
+LNS14000000,Unemployment Rate (%),2022-04-01,3.7
+LNS14000000,Unemployment Rate (%),2022-05-01,3.6
+LNS14000000,Unemployment Rate (%),2022-06-01,3.6
+LNS14000000,Unemployment Rate (%),2022-07-01,3.5
+LNS14000000,Unemployment Rate (%),2022-08-01,3.6
+LNS14000000,Unemployment Rate (%),2022-09-01,3.5
+LNS14000000,Unemployment Rate (%),2022-10-01,3.6
+LNS14000000,Unemployment Rate (%),2022-11-01,3.6
+LNS14000000,Unemployment Rate (%),2022-12-01,3.5
 LNS14000000,Unemployment Rate (%),2023-01-01,3.5
 LNS14000000,Unemployment Rate (%),2023-02-01,3.6
 LNS14000000,Unemployment Rate (%),2023-03-01,3.5
