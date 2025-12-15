@@ -2,8 +2,11 @@ name: Monthly BLS Update
 
 on:
   schedule:
-    - cron: "0 12 5 * *"  # runs on the 5th of each month at 12:00 UTC
-  workflow_dispatch:      # allow manual run button
+    - cron: "0 12 5 * *"  # runs monthly
+  workflow_dispatch:      # manual trigger
+
+permissions:
+  contents: write
 
 jobs:
   update-data:
