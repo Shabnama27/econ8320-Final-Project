@@ -1,0 +1,36 @@
+name: Monthly BLS Update
+
+on:
+  schedule:
+    - cron: "0 12 5 * *"  # runs on the 5th of each month at 12:00 UTC
+  workflow_dispatch:      # allow manual run button
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    env:
+      BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run BLS fetch script
+        run: python scripts/fetch_bls.py
+
+      - name: Commit and push updated CSV
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data/labor_timeseries.csv
+          git commit -m "Update BLS data (GitHub Actions)" || echo "No changes to commit"
+          git push

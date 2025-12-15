@@ -1,65 +1,109 @@
-import os, json, requests, pandas as pd
+import os
+import requests
+import pandas as pd
+from pathlib import Path
 from datetime import datetime
-from dateutil.relativedelta import relativedelta
 
-SERIES = [
-    ("CES0000000001", "Total Nonfarm Employment (thous)"),
-    ("LNS14000000", "Unemployment Rate (%)"),
-    ("LNS11300000", "Labor Force Participation Rate (%)"),
-    ("LNS12300000", "Employment-Population Ratio (%)"),
-    ("CES0500000003", "Avg Hourly Earnings, Private ($)")
-]
+# where to save the data
+DATA_PATH = Path("data/labor_timeseries.csv")
 
-API_URL = "https://api.bls.gov/publicAPI/v2/timeseries/data/"
-API_KEY = os.getenv("BLS_API_KEY")  # put this in a GitHub Secret later
+# BLS API info
+BLS_URL = "https://api.bls.gov/publicAPI/v2/timeseries/data/"
 
-# last 24 months for a clean start
-end = datetime.today().date().replace(day=1)
-start = (end - relativedelta(months=24))
-
-payload = {
-    "seriesid": [s[0] for s in SERIES],
-    "startyear": str(start.year),
-    "endyear": str(end.year),
+# series id -> readable name
+SERIES = {
+    "CES0000000001": "Total Nonfarm Employment (thousands)",  # payroll employment
+    "LNS14000000": "Unemployment Rate (%)",
+    "LNS11300000": "Labor Force Participation Rate (%)",
+    "LNS12300000": "Employment-Population Ratio (%)",
+    "CES0500000003": "Avg Hourly Earnings, Private ($)",
 }
-if API_KEY:
-    payload["registrationkey"] = API_KEY
 
-r = requests.post(API_URL, json=payload, timeout=60)
-r.raise_for_status()
-resp = r.json()
-if resp.get("status") != "REQUEST_SUCCEEDED":
-    raise SystemExit(json.dumps(resp, indent=2))
+# how far back to pull data
+START_YEAR = 2010
 
-rows = []
-for series in resp["Results"]["series"]:
-    sid = series["seriesID"]
-    name = dict(SERIES)[sid]
-    for item in series["data"]:
-        # BLS period "M01"... "M12"; skip "M13" (annual)
-        if not item["period"].startswith("M"):
-            continue
+
+def fetch_series(series_id: str, start_year: int) -> pd.DataFrame:
+    """Fetch one BLS series and return a tidy DataFrame."""
+    end_year = datetime.today().year
+
+    # API key from environment (set this in GitHub Secrets for Actions)
+    api_key = os.getenv("BLS_API_KEY")
+
+    payload = {
+        "seriesid": [series_id],
+        "startyear": start_year,
+        "endyear": end_year,
+    }
+    if api_key:
+        payload["registrationkey"] = api_key
+
+    resp = requests.post(BLS_URL, json=payload)
+    resp.raise_for_status()
+    json_data = resp.json()
+
+    series_list = json_data["Results"]["series"][0]["data"]
+
+    rows = []
+    for item in series_list:
         year = int(item["year"])
-        month = int(item["period"][1:])
+        period = item["period"]  # "M01", "M02", ..., "M13"
         value = float(item["value"])
-        date = pd.Timestamp(year=year, month=month, day=1)
-        rows.append({
-            "series_id": sid,
-            "series_name": name,
-            "date": date,
-            "value": value
-        })
 
-df = pd.DataFrame(rows)
-df = df.sort_values(["series_id", "date"]).reset_index(drop=True)
+        # skip annual "M13" values
+        if not period.startswith("M"):
+            continue
+        month_num = int(period[1:])
+        if month_num == 13:
+            continue
 
-# Append-only: if a file exists, keep old rows and add new ones
-out_path = "data/labor_timeseries.csv"
-if os.path.exists(out_path):
-    old = pd.read_csv(out_path, parse_dates=["date"])
-    df = pd.concat([old, df], ignore_index=True).drop_duplicates(
-        subset=["series_id", "date"], keep="last"
+        date = datetime(year, month_num, 1)
+
+        rows.append(
+            {
+                "series_id": series_id,
+                "series_name": SERIES.get(series_id, series_id),
+                "date": date,
+                "value": value,
+            }
+        )
+
+    df = pd.DataFrame(rows)
+    return df
+
+
+def main():
+    # fetch all series and stack them together
+    all_dfs = []
+    for sid in SERIES.keys():
+        print(f"Fetching {sid} ...")
+        df_sid = fetch_series(sid, START_YEAR)
+        all_dfs.append(df_sid)
+
+    new_data = pd.concat(all_dfs, ignore_index=True)
+
+    # if file exists, read it and append, otherwise start fresh
+    if DATA_PATH.exists():
+        print("Existing CSV found, merging with new data.")
+        old_data = pd.read_csv(DATA_PATH, parse_dates=["date"])
+        combined = pd.concat([old_data, new_data], ignore_index=True)
+    else:
+        print("No existing CSV, creating a new one.")
+        combined = new_data
+
+    # drop duplicates (same series + date) and sort
+    combined = (
+        combined.drop_duplicates(subset=["series_id", "date"])
+        .sort_values(["series_id", "date"])
+        .reset_index(drop=True)
     )
 
-df.to_csv(out_path, index=False)
-print(f"Saved {len(df)} rows to {out_path}")
+    # make sure folder exists
+    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    combined.to_csv(DATA_PATH, index=False)
+    print(f"Saved {len(combined)} rows to {DATA_PATH}")
+
+
+if __name__ == "__main__":
+    main()
