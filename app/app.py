@@ -9,13 +9,10 @@ st.title("BLS Labor Dashboard (Auto-Updating)")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/labor_timeseries.csv", parse_dates=["date"])
-    # Sort once, use everywhere
+    df = pd.read_csv("../data/labor_timeseries.csv", parse_dates=["date"])
     df = df.sort_values(["series_id", "date"]).reset_index(drop=True)
     return df
-
 df = load_data()
-
 last_date = df["date"].max()
 st.caption(f"Last data month in file: {last_date.date()}")
 
