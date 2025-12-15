@@ -19,10 +19,27 @@ df = load_data()
 last_date = df["date"].max()
 st.caption(f"Last data month in file: {last_date.date()}")
 
+# Year range filter for all charts
+years = df_full["date"].dt.year
+min_year = int(years.min())
+max_year = int(years.max())
+
+st.subheader("Time range for charts")
+start_year, end_year = st.slider(
+    "Select year range",
+    min_value=min_year,
+    max_value=max_year,
+    value=(max(min_year, max_year - 2), max_year),  # default: last three years
+)
+
+start_date = pd.Timestamp(start_year, 1, 1)
+end_date = pd.Timestamp(end_year, 12, 31)
+
+df = df_full[(df_full["date"] >= start_date) & (df_full["date"] <= end_date)].copy()
+
 # Summary metrics for latest month
 latest = df[df["date"] == last_date]
 
-# Make sure we keep a stable order
 metric_order = [
     "Total Nonfarm Employment (thousands)",
     "Average Hourly Earnings, Private ($)",
@@ -45,54 +62,58 @@ for col, (_, row) in zip(cols, latest_display.iterrows()):
 
 st.write("")
 
-# Main interactive line chart
+#  line chart filtered by year
 st.subheader("Level of Each Series")
 
-series_names = df["series_name"].drop_duplicates().tolist()
-default_selection = series_names[:3]
-
-selected_series = st.multiselect(
-    "Choose series",
-    options=series_names,
-    default=default_selection,
-)
-
-if not selected_series:
-    st.info("Select at least one series to see the chart.")
+if df.empty:
+    st.warning("No data in the selected year range. Please adjust the slider.")
 else:
-    plot_df = df[df["series_name"].isin(selected_series)]
+    series_names = df["series_name"].drop_duplicates().tolist()
+    default_selection = series_names[:3]
 
-    level_chart = (
-        alt.Chart(plot_df)
-        .mark_line()
-        .encode(
-            x="date:T",
-            y="value:Q",
-            color="series_name:N",
-            tooltip=[
-                alt.Tooltip("series_name:N", title="Series"),
-                alt.Tooltip("date:T", title="Date"),
-                alt.Tooltip("value:Q", title="Value"),
-            ],
-        )
-        .properties(height=400)
+    selected_series = st.multiselect(
+        "Choose series",
+        options=series_names,
+        default=default_selection,
     )
 
-    st.altair_chart(level_chart, use_container_width=True)
+    if not selected_series:
+        st.info("Select at least one series to see the chart.")
+    else:
+        plot_df = df[df["series_name"].isin(selected_series)]
+
+        level_chart = (
+            alt.Chart(plot_df)
+            .mark_line()
+            .encode(
+                x="date:T",
+                y="value:Q",
+                color="series_name:N",
+                tooltip=[
+                    alt.Tooltip("series_name:N", title="Series"),
+                    alt.Tooltip("date:T", title="Date"),
+                    alt.Tooltip("value:Q", title="Value"),
+                ],
+            )
+            .properties(height=400)
+        )
+
+        st.altair_chart(level_chart, use_container_width=True)
 
 # Month over month change
 st.subheader("Month over Month Change (percent)")
 
-# Work on a sorted copy
-df_sorted = df.sort_values(["series_id", "date"]).reset_index(drop=True)
-df_sorted["mom_change"] = (
-    df_sorted.groupby("series_id")["value"].pct_change() * 100.0
+df_sorted_range = df.sort_values(["series_id", "date"]).reset_index(drop=True)
+df_sorted_range["mom_change"] = (
+    df_sorted_range.groupby("series_id")["value"].pct_change() * 100.0
 )
 
-if selected_series:
-    mom_df = df_sorted[df_sorted["series_name"].isin(selected_series)].dropna(
-        subset=["mom_change"]
-    )
+if df.empty or not selected_series:
+    st.info("Select at least one series above to see month over month changes.")
+else:
+    mom_df = df_sorted_range[
+        df_sorted_range["series_name"].isin(selected_series)
+    ].dropna(subset=["mom_change"])
 
     mom_chart = (
         alt.Chart(mom_df)
@@ -111,18 +132,23 @@ if selected_series:
     )
 
     st.altair_chart(mom_chart, use_container_width=True)
-else:
-    st.info("Select at least one series above to see month over month changes.")
 
 # Year over year change
 st.subheader("Year over Year Change (percent)")
 
-df_sorted["yoy_change"] = (
-    df_sorted.groupby("series_id")["value"].pct_change(12) * 100.0
+df_yoy_full = df_full.sort_values(["series_id", "date"]).reset_index(drop=True)
+df_yoy_full["yoy_change"] = (
+    df_yoy_full.groupby("series_id")["value"].pct_change(12) * 100.0
 )
 
-if selected_series:
-    yoy_df = df_sorted[df_sorted["series_name"].isin(selected_series)].dropna(
+df_yoy = df_yoy_full[
+    (df_yoy_full["date"] >= start_date) & (df_yoy_full["date"] <= end_date)
+]
+
+if df.empty or not selected_series:
+    st.info("Select at least one series above to see year over year changes.")
+else:
+    yoy_df = df_yoy[df_yoy["series_name"].isin(selected_series)].dropna(
         subset=["yoy_change"]
     )
 
@@ -143,21 +169,19 @@ if selected_series:
     )
 
     st.altair_chart(yoy_chart, use_container_width=True)
-else:
-    st.info("Select at least one series above to see year over year changes.")
 
-# Small trend panels for each selected series
+# Mini trends for selected series in chosen range
 st.subheader("Mini Trends for Selected Series")
 
-if selected_series:
-    # last 24 months for a simple small panel
+if df.empty or not selected_series:
+    st.info("Select at least one series above to see mini trend panels.")
+else:
     trend_cols = st.columns(min(len(selected_series), 3))
 
     for i, series in enumerate(selected_series):
         sub_df = (
-            df_sorted[df_sorted["series_name"] == series]
+            df[df["series_name"] == series]
             .sort_values("date")
-            .tail(24)
         )
 
         small_chart = (
@@ -174,11 +198,9 @@ if selected_series:
         trend_cols[i % len(trend_cols)].altair_chart(
             small_chart, use_container_width=True
         )
-else:
-    st.info("Select at least one series above to see mini trend panels.")
-    
-# Data table
-st.subheader("Data")
+
+# Data table, filtered by year range
+st.subheader("Data in selected year range")
 
 st.dataframe(
     df.sort_values(["series_name", "date"]).reset_index(drop=True),
